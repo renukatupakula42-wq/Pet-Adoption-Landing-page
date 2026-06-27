@@ -199,5 +199,70 @@ footer{
     color:white;
     text-align:center;
     padding:20px;
+}.process{
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff8f0;
 }
+
+.process h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.steps{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.step{
+    width: 220px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.step h3{
+    color: #ff914d;
+}
+
+.step p{
+    color: #555;
+}form{
+    width:50%;
+    margin:auto;
+    text-align:center;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    background:#ff914d;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff7a26;
+}
+
+.btn{
+    background:#ff914d;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:8px;
+}
+
 ```
