@@ -1,0 +1,203 @@
+```css
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#FFF8F2;
+    color:#333;
+}
+
+/* Navigation */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#ffffff;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+}
+
+nav h2{
+    color:#ff914d;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#ff914d;
+}
+
+nav button{
+    background:#ff914d;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+nav button:hover{
+    background:#ff7a26;
+}
+
+/* Hero Section */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:70px 8%;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:48px;
+    color:#222;
+}
+
+.hero-text p{
+    margin:20px 0;
+    font-size:18px;
+    line-height:1.6;
+}
+
+.hero-text button{
+    background:#4CAF50;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero-text button:hover{
+    background:#3d9440;
+}
+
+.hero-image img{
+    width:450px;
+    border-radius:20px;
+}
+
+/* Why Adopt */
+.why{
+    padding:70px 8%;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    width:280px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+}
+
+/* Pets */
+.pets{
+    padding:70px 8%;
+    text-align:center;
+}
+
+.pet-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.pet-card{
+    background:white;
+    width:280px;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.pet-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.pet-card h3{
+    margin:15px 0 10px;
+}
+
+.pet-card p{
+    margin-bottom:20px;
+}
+
+.pet-card button{
+    background:#ff914d;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:20px;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+
+.pet-card button:hover{
+    background:#ff7a26;
+}
+
+/* Contact */
+.contact{
+    text-align:center;
+    padding:70px 8%;
+}
+
+.contact button{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+/* Footer */
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+```
